@@ -31,18 +31,6 @@ const List = styled.div`
     display: flex;
     justify-content: center;
     margin: 2rem 0rem;
-    @media ${devices.mobileL} {
-        display: none;
-    }
-    @media ${devices.mobileLs} and ${devices.tabletM} {
-        display: none;
-    }
-    @media ${devices.tabletMs} and ${devices.tabletL} {
-        display: none;
-    }
-    @media ${devices.tabletLs} and ${devices.laptopM} {
-        display: none;
-    }
 `
 const SLink = styled(NavLink)`
     display: flex;
@@ -76,6 +64,54 @@ const SLink = styled(NavLink)`
         }
         h4 {
             color: #FFFFFF;
+        }
+    }
+    @media ${devices.mobileL} {
+        padding: 1rem 1rem;
+        margin: 1rem;
+        width: 5rem;
+        height: 5rem;
+        h4 {
+            font-size: 0.65rem;
+        }
+        svg{
+            font-size: 1.375rem;
+        }
+    }
+    @media ${devices.mobileLs} and ${devices.tabletM} {
+        padding: 1rem 1rem;
+        margin: 1rem;
+        width: 5.2rem;
+        height: 5.2rem;
+        h4 {
+            font-size: 0.7rem;
+        }
+        svg{
+            font-size: 1.4375rem;
+        }
+    }
+    @media ${devices.tabletMs} and ${devices.tabletL} {
+        padding: 1rem 1rem;
+        margin: 1rem;
+        width: 5.3rem;
+        height: 5.2rem;
+        h4 {
+            font-size: 0.73rem;
+        }
+        svg{
+            font-size: 1.4375rem;
+        }
+    }
+    @media ${devices.tabletLs} and ${devices.laptopM} {
+        padding: 1rem 1rem;
+        margin: 1rem;
+        width: 5.4rem;
+        height: 5.3rem;
+        h4 {
+            font-size: 0.74rem;
+        }
+        svg{
+            font-size: 1.4375rem;
         }
     }
 `

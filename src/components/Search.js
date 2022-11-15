@@ -48,27 +48,58 @@ const FormStyle = styled.form`
         width: 100%;
     }
     @media ${devices.mobileL} {
-      margin: 0rem 0rem;
+      margin: 0rem 1rem;
       input {
-        height: 40px;
+        height: 2.5rem;
         font-size: 1rem;
         border-radius: 10px;
+        margin-top: 0rem;
       }
     }
     @media ${devices.mobileLs} and ${devices.tabletM} {
       margin: 0rem 1rem;
+      input {
+        height: 2.8125rem;
+        font-size: 1rem;
+        border-radius: 10px;
+        margin-top: 0rem;
+      }
     }
     @media ${devices.tabletMs} and ${devices.tabletL} {
       margin: 0rem 3rem;
+      input {
+        height: 2.9375rem;
+        font-size: 1rem;
+        border-radius: 10px;
+        margin-top: 0rem;
+      }
     }
     @media ${devices.tabletLs} and ${devices.laptopM} {
       margin: 0rem 4rem;
+      input {
+        height: 3rem;
+        font-size: 1rem;
+        border-radius: 10px;
+        margin-top: 0rem;
+      }
     }
     @media ${devices.laptopMs} and ${devices.laptop} {
       margin: 0rem 5rem;
+      input {
+        height: 3.0625rem;
+        font-size: 1rem;
+        border-radius: 10px;
+        margin-top: 0rem;
+      }
     }
     @media ${devices.laptops} and ${devices.laptopL} {
       margin: 0rem 10rem;
+      input {
+        height: 3.125rem;
+        font-size: 1rem;
+        border-radius: 10px;
+        margin-top: 0rem;
+      }
     }
     svg {
         position: absolute;

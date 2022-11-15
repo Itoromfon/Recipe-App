@@ -100,38 +100,42 @@ export default function Veggie() {
 const Wrapper = styled.div`
     margin: 4rem 0rem;
     @media ${devices.mobileL} {
+        margin: 2rem 0rem;
         h3 {
-            font-size: 20px;
+            font-size: 1.25rem;
             margin-bottom: 1rem;
         }
     }
     @media ${devices.mobileLs} and ${devices.tabletM} {
+        margin: 2rem 0rem;
         h3 {
-            font-size: 21px;
+            font-size: 1.3125rem;
             margin-bottom: 1rem;
         }
     }
     @media ${devices.tabletMs} and ${devices.tabletL} {
+        margin: 3rem 0rem;
         h3 {
-            font-size: 22px;
+            font-size: 1.375rem;
             margin-bottom: 1rem;
         }
     }
     @media ${devices.tabletLs} and ${devices.laptopM} {
+        margin: 3rem 0rem;
         h3 {
-            font-size: 23px;
+            font-size: 1.4375rem;
             margin-bottom: 1rem;
         }
     }
     @media ${devices.laptopMs} and ${devices.laptop} {
         h3 {
-            font-size: 23px;
+            font-size: 1.4375rem;
             margin-bottom: 1rem;
         }
     }
     @media ${devices.laptops} and ${devices.laptopL} {
         h3 {
-            font-size: 24px;
+            font-size: 1.5rem;
             margin-bottom: 1rem;
         }
     }
